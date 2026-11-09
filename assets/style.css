@@ -429,3 +429,14 @@ table.data td:first-child { font-weight: 500; width: 24%; }
   .fig-side { float: none; width: 100%; max-width: 360px; margin: 24px 0 8px !important; }
 }
 @media print { .banner, .fig, .fig-row, .fig-side { display: none !important; } }
+
+/* Contact heading with portrait */
+.contact-head { display: grid; grid-template-columns: 1fr min(30vw, 340px); gap: 40px; align-items: end; padding: 0 var(--m); margin-bottom: 40px; }
+.contact-head h2 { padding: 0 !important; margin-bottom: 20px !important; }
+.contact-head p { font-size: var(--step-lead); line-height: 1.38; max-width: 36ch; margin: 0; }
+.contact-head figure { margin: 0; }
+.contact-head img { width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; object-position: 50% 30%; display: block; }
+@media (max-width: 760px) {
+  .contact-head { grid-template-columns: 1fr; gap: 24px; }
+  .contact-head figure { max-width: 300px; }
+}
