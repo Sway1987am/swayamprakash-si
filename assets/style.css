@@ -440,3 +440,4 @@ table.data td:first-child { font-weight: 500; width: 24%; }
   .contact-head { grid-template-columns: 1fr; gap: 24px; }
   .contact-head figure { max-width: 300px; }
 }
+.fig-side.sq { width: min(30%, 240px); }
