@@ -448,3 +448,4 @@ table.data td:first-child { font-weight: 500; width: 24%; }
 .feature figcaption { font-size: 15px; line-height: 1.4; margin-top: 12px; color: var(--muted); max-width: 70ch; }
 @media (max-width: 760px) { .feature img { aspect-ratio: 4 / 3; } }
 @media print { .feature { display: none !important; } }
+.band-grid figure figcaption { font-size: 15px; line-height: 1.4; margin-top: 12px; color: var(--muted); max-width: 60ch; }
